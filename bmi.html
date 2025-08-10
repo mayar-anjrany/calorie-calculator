@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>حاسبة الـ BMI</title>
+    <link rel="stylesheet" href="bmi.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>حاسبة مؤشر كتلة الجسم (BMI)</h1>
+
+        <div class="input-group">
+            <label for="height">الطول (سم):</label>
+            <input type="number" id="height" placeholder="مثال: 170">
+        </div>
+
+        <div class="input-group">
+            <label for="weight">الوزن (كغ):</label>
+            <input type="number" id="weight" placeholder="مثال: 70">
+        </div>
+
+        <button id="calculateBtn">احسب</button>
+
+        <div class="result">
+            <p id="bmiValue"></p>
+            <p id="bmiText"></p>
+            <div class="bar-container">
+                <div id="bmiBar"></div>
+            </div>
+            <p id="weightAdvice"></p>
+        </div>
+    </div>
+  <footer>
+    <p>© 2025 - موقع الحاسبة من تنفيذ <strong>ميار</strong></p>
+    <p><a href="https://wa.me/qr/D5ROWJPX2A52D1">اتصل بنا</a> | <a href="policy.html">about us</a> | <a href="index.html">حساب الوزن المثالي BMI</a></p>
+  </footer>
+    <script src="bmi.js"></script>
+</body>
+</html>
